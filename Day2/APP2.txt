@@ -1,0 +1,107 @@
+num_1 = int(input("Enter the 1st number : "))
+num_2 = int(input("Enter the 2nd number : "))
+
+sum = int(num_1+num_2)
+diff = int(num_1-num_2)
+pro = int(num_1*num_2)
+quo = int(num_1/num_2)
+
+print("The sum of two number = ",sum)
+print("The difference of two number : ",diff)
+print("The product of two number : ",pro)
+print("The quotient of two numbers : ",quo)
+
+
+InA = int(input("Enter the 1st number : "))
+InB = int(input("Enter the 2nd number : "))
+
+print(InA < InB)
+print(InA > InB)
+print(InA == InB)
+print(InA <= InB)
+print(InA >= InB)
+
+NumIn = input("Enter a number : ")
+
+print(int(NumIn))
+print(type(int(NumIn)))
+
+print(float(NumIn))
+print(type(float(NumIn)))
+
+print(str(NumIn))
+print(type(str(NumIn)))
+
+'''print(bool(NumIn))
+print(type(bool(NumIn))) 
+Always True '''
+
+M1:
+print("Simple Calculator")
+
+val_1 = int(input("Enter the 1st number : "))
+val_2 = int(input("Enter the 2nd number : "))
+
+
+
+
+
+
+
+print("Enter the value below ")
+a = int(input("Enter the value of a : "))
+b = int(input("Enter the value of b : "))
+c = int(input("Enter the value of c : "))
+d = int(input("Enter the value of d : "))
+
+sol = (a+b)*c/(a-b)
+print("Calculated : ",sol)
+
+s_maths = float(input("Enter the marks of Maths : "))
+s_eng = float(input("Enter the marks of English : "))
+s_che = float(input("Enter the marks of Chemistry : "))
+s_pps = float(input("Enter the marks of pps : "))
+s_cons = float(input("Enter the mark of constitution : "))
+
+TotalMarks = s_maths + s_eng + s_che + s_pps + s_cons
+avg = TotalMarks / 5
+percent = ((TotalMarks / 120)*100)
+
+print("Total Marks of all the subjects are : ",TotalMarks)
+print("Average Marks of all the subject is : ",avg)
+print("Your percentage is : ",percent)
+print((percent )>= 75)
+
+
+aIn = float(input("Enter the value of a : "))
+bIn = float(input("Enter the value of b : "))
+cIn = float(input("Enter the value of c : "))
+dIn = float(input("Enter the value of d : "))
+
+problem = ((a+b)**2/(c+1)-a*b)
+print("The solution is : ",problem)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
